@@ -6,10 +6,10 @@
 %global __provides_exclude_from /usr/local/115/(lib/.*|plugins/.*)$
 %global __requires_exclude_from /usr/local/115/(lib/.*|plugins/.*)$
 %global __requires_exclude ^(libQt5.*|libav.*|libswresample.*)$
-%define rel 16
+%define rel 6
 
 Name: 115
-Version: 1.0.0
+Version: 1.0.1
 Release: %{rel}%{?dist}
 Summary: 115 PC client for Linux
 License: 115 License Agreement
@@ -43,5 +43,8 @@ install -m 644 usr/share/applications/115.desktop %{buildroot}/usr/share/applica
 /usr/share/applications/115.desktop
 
 %changelog
+* Mon Mar 7 2022 Hangbin Liu <liuhangbin@gmail.com> - 1.0.1-6
+- Update to 1.0.1-6
+
 * Mon Mar 7 2022 Hangbin Liu <liuhangbin@gmail.com> - 1.0.0-16
 - Initial build
