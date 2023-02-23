@@ -42,7 +42,7 @@ install -m 644 usr/share/applications/115.desktop %{buildroot}/usr/share/applica
 /usr/share/applications/115.desktop
 
 %changelog
-* Thu Feb 23 2022 Hangbin Liu <liuhangbin@gmail.com> - 2.0.3.6-1
+* Thu Feb 23 2023 Hangbin Liu <liuhangbin@gmail.com> - 2.0.3.6-1
 - Update to 2.0.3.6
 
 * Sun Dec 25 2022 Hangbin Liu <liuhangbin@gmail.com> - 2.0.2.9-1
